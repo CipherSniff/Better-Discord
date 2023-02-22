@@ -1,0 +1,2 @@
+# Better-Discord
+ by CipherSniff
