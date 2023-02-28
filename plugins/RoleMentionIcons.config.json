@@ -1,0 +1,11 @@
+{
+    "settings": {
+        "everyone": true,
+        "here": true,
+        "showRoleIcons": true
+    },
+    "currentVersionInfo": {
+        "version": "1.2.0",
+        "hasShownChangelog": true
+    }
+}
