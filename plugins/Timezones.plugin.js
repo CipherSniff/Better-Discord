@@ -2,7 +2,7 @@
  * @name Timezones
  * @author TheCommieAxolotl#0001
  * @description Allows you to display other Users' local times.
- * @version 1.0.0
+ * @version 1.0.1
  * @authorId 538487970408300544
  * @invite 5BSWtSM3XU
  * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/Timezones
@@ -21,9 +21,17 @@ module.exports = (() => {
                 },
             ],
             github_raw: "https://raw.githubusercontent.com/TheCommieAxolotl/BetterDiscord-Stuff/main/Timezones/Timezones.plugin.js",
-            version: "1.0.0",
+            version: "1.0.1",
             description: "Allows you to display other Users' local times.",
         },
+        defaultConfig: [
+            {
+                type: "switch",
+                id: "twentyFourHours",
+                name: "24 Hour Time",
+                value: false,
+            },
+        ],
     };
 
     return !global.ZeresPluginLibrary
@@ -107,19 +115,9 @@ module.exports = (() => {
 
                           const ProfileBanner = Webpack.getModule((m) => m.Z?.toString().includes("e.hasBannerImage") && m.Z?.toString().includes("e.hasThemeColors"));
                           const MessageHeader = Webpack.getModule((m) => m.Z?.toString().includes("userOverride") && m.Z?.toString().includes("withMentionPrefix"));
-                          const Tooltip = Webpack.getModule((m) => m?.toString().includes("shouldShowTooltip") && m?.Positions);
+                          const Tooltip = BdApi.Components.Tooltip;
 
-                          ContextMenu.patch("user-context", (ret, props) => {
-                              ret.props.children[0].props.children.push([
-                                  ContextMenu.buildItem({ type: "separator" }),
-                                  ContextMenu.buildItem({
-                                      label: "Set Timezone",
-                                      action: () => {
-                                          return this.setTimezone(props.user.id, props.user);
-                                      },
-                                  }),
-                              ]);
-                          });
+                          ContextMenu.patch("user-context", this.userContextPatch);
 
                           Patcher.after(ProfileBanner, "Z", (_, [props], ret) => {
                               const originalRet = { ...ret };
@@ -140,6 +138,8 @@ module.exports = (() => {
                           });
 
                           Patcher.after(MessageHeader, "Z", (_, [props], ret) => {
+                              if (props.isRepliedMessage) return;
+
                               this.hasTimezone(props.message.author.id) &&
                                   ret.props.children.push(
                                       React.createElement(Tooltip, {
@@ -149,6 +149,20 @@ module.exports = (() => {
                                   );
                           });
                       }
+
+                      userContextPatch = (ret, props) => {
+                          const isDM = !Array.isArray(ret.props.children[0].props.children);
+
+                          (isDM ? ret.props.children : ret.props.children[0].props.children).push([
+                              ContextMenu.buildItem({ type: "separator" }),
+                              ContextMenu.buildItem({
+                                  label: "Set Timezone",
+                                  action: () => {
+                                      return this.setTimezone(props.user.id, props.user);
+                                  },
+                              }),
+                          ]);
+                      };
 
                       hasTimezone(id) {
                           return !!Data.load(config.info.name, id);
@@ -161,7 +175,7 @@ module.exports = (() => {
                           UI.showConfirmationModal(
                               "Set Timezone",
                               [
-                                  React.createElement(Markdown, null, "Please enter an hour offset between -12 and 12 (UTC)"),
+                                  React.createElement(Markdown, null, "Please enter a UTC hour offset."),
                                   React.createElement(TextInput, {
                                       type: "number",
                                       maxLength: "2",
@@ -170,7 +184,7 @@ module.exports = (() => {
                                           hours = v;
                                       },
                                   }),
-                                  React.createElement(Markdown, { className: "timezone-margin-top" }, "Please enter a minute offset between 0 and 60 (UTC)"),
+                                  React.createElement(Markdown, { className: "timezone-margin-top" }, "Please enter a UTC minute offset."),
                                   React.createElement(TextInput, {
                                       type: "number",
                                       maxLength: "2",
@@ -223,7 +237,11 @@ module.exports = (() => {
                               hours -= 1;
                           }
 
-                          const hour = hours > 12 ? hours - 12 : hours;
+                          if (this.settings.twentyFourHours) {
+                              return `${hours.toString().length === 1 ? `0${hours}` : hours}:${minutes.toString().length === 1 ? `0${minutes}` : minutes}`;
+                          }
+
+                          const hour = hours > 12 ? hours - 12 : (hours == 0 ? 12 : hours);
                           const ampm = hours >= 12 ? "PM" : "AM";
 
                           return `${hour}:${minutes.toString().length === 1 ? `0${minutes}` : minutes} ${ampm}`;
@@ -253,7 +271,7 @@ module.exports = (() => {
                               day: "numeric",
                               hour: "numeric",
                               minute: "numeric",
-                              hour12: true,
+                              hour12: !this.settings.twentyFourHours,
                           });
 
                           ret = ret.replace(/,(?=[^,]*$)/, "");
@@ -263,8 +281,13 @@ module.exports = (() => {
 
                       onStop() {
                           Patcher.unpatchAll();
+                          ContextMenu.unpatch("user-context", this.userContextPatch);
                           clearCSS("Timezones-Styles");
                       }
+
+                      getSettingsPanel = () => {
+                          return this.buildSettingsPanel().getElement();
+                      };
                   };
               };
 
