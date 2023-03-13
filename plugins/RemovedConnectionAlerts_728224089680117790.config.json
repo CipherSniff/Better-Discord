@@ -124,7 +124,7 @@
             },
             "766346554931675186": {
                 "id": "766346554931675186",
-                "tag": "Lucky_Strike#0001",
+                "tag": "Lucky_Strike#9959",
                 "avatar": "3fdc528463efe00361ef221c32cfd90d",
                 "avatarURL": "https://cdn.discordapp.com/avatars/766346554931675186/3fdc528463efe00361ef221c32cfd90d.webp?size=40"
             },
@@ -156,8 +156,8 @@
             "837638029170311198": {
                 "id": "837638029170311198",
                 "tag": "𝑷𝒉𝒊𝒍𝒊𝒑𝒑𝒆🦖#2782",
-                "avatar": "757c2a827f00bafb72dedf196f2fdbf8",
-                "avatarURL": "https://cdn.discordapp.com/avatars/837638029170311198/757c2a827f00bafb72dedf196f2fdbf8.webp?size=40"
+                "avatar": "6ec0dfc2442e0deac14c3256fd284900",
+                "avatarURL": "https://cdn.discordapp.com/avatars/837638029170311198/6ec0dfc2442e0deac14c3256fd284900.webp?size=40"
             },
             "846423616815235124": {
                 "id": "846423616815235124",
@@ -251,9 +251,9 @@
             },
             "1028763423095390280": {
                 "id": "1028763423095390280",
-                "tag": "Phonk#9616",
-                "avatar": "08e7baf4cb55289032c07400b221af6d",
-                "avatarURL": "https://cdn.discordapp.com/avatars/1028763423095390280/08e7baf4cb55289032c07400b221af6d.webp?size=40"
+                "tag": "ARC´TERYC#9616",
+                "avatar": "d9e2797226df963336309ab169010208",
+                "avatarURL": "https://cdn.discordapp.com/avatars/1028763423095390280/d9e2797226df963336309ab169010208.webp?size=40"
             },
             "1067902886224343083": {
                 "id": "1067902886224343083",
@@ -269,16 +269,6 @@
             }
         },
         "guildCache": {
-            "811255666990907402": {
-                "id": "811255666990907402",
-                "name": "Aliuwucord",
-                "icon": "912861e37f0efa5c77729592ea8f7b8f",
-                "avatarURL": "https://cdn.discordapp.com/icons/811255666990907402/912861e37f0efa5c77729592ea8f7b8f.webp?size=40",
-                "animatedAvatarURL": "https://cdn.discordapp.com/icons/811255666990907402/912861e37f0efa5c77729592ea8f7b8f.webp?",
-                "joinedAt": "2023-02-27T00:50:19.219Z",
-                "owner": "",
-                "ownerId": "324622488644616195"
-            },
             "523663022053392405": {
                 "id": "523663022053392405",
                 "name": "Bedrock Add-Ons",
@@ -316,7 +306,7 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/966138321959014400/3619aaeef0d2f89c17e2d6bedfe2268f.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/966138321959014400/3619aaeef0d2f89c17e2d6bedfe2268f.webp?",
                 "joinedAt": "2022-04-20T00:48:45.990Z",
-                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
+                "owner": "ℂℍ𝕀𝔼𝔽 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
                 "ownerId": "728224089680117790"
             },
             "900283741765763072": {
@@ -336,7 +326,7 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/923345613381304341/df095dbb0ab903a264818254f865ddb8.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/923345613381304341/df095dbb0ab903a264818254f865ddb8.webp?",
                 "joinedAt": "2021-12-22T22:45:49.202Z",
-                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
+                "owner": "ℂℍ𝕀𝔼𝔽 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
                 "ownerId": "728224089680117790"
             },
             "1079512826533658674": {
@@ -368,6 +358,16 @@
                 "joinedAt": "2022-07-21T21:37:07.461Z",
                 "owner": "",
                 "ownerId": "313048405611905037"
+            },
+            "1017035752502206474": {
+                "id": "1017035752502206474",
+                "name": "DiscoTools.xyz",
+                "icon": "005cbcae7b606b7fdca729d84e5c95b7",
+                "avatarURL": "https://cdn.discordapp.com/icons/1017035752502206474/005cbcae7b606b7fdca729d84e5c95b7.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1017035752502206474/005cbcae7b606b7fdca729d84e5c95b7.webp?",
+                "joinedAt": "2023-03-08T16:57:35.561Z",
+                "owner": "",
+                "ownerId": "452475691410128906"
             },
             "753438334663000116": {
                 "id": "753438334663000116",
@@ -416,7 +416,7 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/707849825105870868/44034291abdaa9cb16e7fb140e57f9b1.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/707849825105870868/44034291abdaa9cb16e7fb140e57f9b1.webp?",
                 "joinedAt": "2022-08-20T19:57:25.651Z",
-                "owner": "",
+                "owner": "FlyingV111#5173",
                 "ownerId": "584827558982320154"
             },
             "509419745834041355": {
@@ -449,6 +449,16 @@
                 "owner": "",
                 "ownerId": "211275790396948480"
             },
+            "1072150031060177017": {
+                "id": "1072150031060177017",
+                "name": "FQD | Shop",
+                "icon": "a_1197a3961d7d6f3fd77f27d5988f397a",
+                "avatarURL": "https://cdn.discordapp.com/icons/1072150031060177017/a_1197a3961d7d6f3fd77f27d5988f397a.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1072150031060177017/a_1197a3961d7d6f3fd77f27d5988f397a.gif?",
+                "joinedAt": "2023-03-08T20:20:56.358Z",
+                "owner": "94 Juraz#0958",
+                "ownerId": "929185569492320336"
+            },
             "1047885994453639169": {
                 "id": "1047885994453639169",
                 "name": "𝔾𝕋𝕄 ℕ𝕖𝕥𝕨𝕠𝕣𝕜",
@@ -456,18 +466,8 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/1047885994453639169/5d0851b7f13adb6cc1d475c0537b0b67.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/1047885994453639169/5d0851b7f13adb6cc1d475c0537b0b67.webp?",
                 "joinedAt": "2022-12-01T14:44:49.986Z",
-                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
+                "owner": "ℂℍ𝕀𝔼𝔽 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
                 "ownerId": "728224089680117790"
-            },
-            "1049154765315133561": {
-                "id": "1049154765315133561",
-                "name": "♤̷̆͑~̴̈́͗卩卄ㄖ几Ҝ~̵́̈♤̸̅͌",
-                "icon": "2ceb3c7fb6e94bbde11fc481e56743ee",
-                "avatarURL": "https://cdn.discordapp.com/icons/1049154765315133561/2ceb3c7fb6e94bbde11fc481e56743ee.webp?size=40",
-                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1049154765315133561/2ceb3c7fb6e94bbde11fc481e56743ee.webp?",
-                "joinedAt": "2023-01-08T13:52:33.111Z",
-                "owner": "Phonk#9616",
-                "ownerId": "1028763423095390280"
             },
             "613425648685547541": {
                 "id": "613425648685547541",
@@ -491,10 +491,12 @@
             },
             "1080129414551060500": {
                 "id": "1080129414551060500",
-                "name": "Test Shop",
-                "icon": null,
+                "name": "▹ℕ𝕚𝕥𝕣𝕠 𝕊𝕙𝕠𝕡◃",
+                "icon": "ce47fd465090e0ff9216053ae42a8fb5",
+                "avatarURL": "https://cdn.discordapp.com/icons/1080129414551060500/ce47fd465090e0ff9216053ae42a8fb5.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1080129414551060500/ce47fd465090e0ff9216053ae42a8fb5.webp?",
                 "joinedAt": "2023-02-28T14:08:40.283Z",
-                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
+                "owner": "ℂℍ𝕀𝔼𝔽 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
                 "ownerId": "728224089680117790"
             },
             "879508141543424080": {
@@ -506,6 +508,16 @@
                 "joinedAt": "2022-06-23T19:51:13.644Z",
                 "owner": "► ₳₿₤ꝩאָ ꟾ ˀΧˁ ◄#0001",
                 "ownerId": "802859793538613278"
+            },
+            "1082479904949534773": {
+                "id": "1082479904949534773",
+                "name": "ARC.Lape",
+                "icon": "108a78a5f9b4bf84240c29346a9934de",
+                "avatarURL": "https://cdn.discordapp.com/icons/1082479904949534773/108a78a5f9b4bf84240c29346a9934de.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1082479904949534773/108a78a5f9b4bf84240c29346a9934de.webp?",
+                "joinedAt": "2023-03-07T16:20:13.760Z",
+                "owner": "ARC´TERYC#9616",
+                "ownerId": "1028763423095390280"
             },
             "1012299328443916308": {
                 "id": "1012299328443916308",
@@ -526,16 +538,6 @@
                 "joinedAt": "2022-05-29T11:29:48.856Z",
                 "owner": "",
                 "ownerId": "957267294931796008"
-            },
-            "1059776618723283046": {
-                "id": "1059776618723283046",
-                "name": "𝔹𝕣𝕠𝕥𝕙𝕖𝕣 𝔼𝕪𝕖",
-                "icon": "a51a8473c36036853e2114f846ccec2d",
-                "avatarURL": "https://cdn.discordapp.com/icons/1059776618723283046/a51a8473c36036853e2114f846ccec2d.webp?size=40",
-                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1059776618723283046/a51a8473c36036853e2114f846ccec2d.webp?",
-                "joinedAt": "2023-01-03T10:13:55.685Z",
-                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
-                "ownerId": "728224089680117790"
             },
             "1078989860901228576": {
                 "id": "1078989860901228576",
@@ -593,7 +595,7 @@
                 "icon": "bccbb650a1043aed3ba009ca1ed9ec88",
                 "avatarURL": "https://cdn.discordapp.com/icons/960346027678908488/bccbb650a1043aed3ba009ca1ed9ec88.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/960346027678908488/bccbb650a1043aed3ba009ca1ed9ec88.webp?",
-                "joinedAt": "2023-03-01T19:41:12.361Z",
+                "joinedAt": "2023-03-12T19:53:27.493Z",
                 "owner": "",
                 "ownerId": "582170230068084738"
             },
@@ -624,7 +626,7 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/262676636598534146/81b0b1d4d19131eb03cdb5620e39827b.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/262676636598534146/81b0b1d4d19131eb03cdb5620e39827b.webp?",
                 "joinedAt": "2023-01-27T20:46:28.089Z",
-                "owner": "Revyn#5803",
+                "owner": "",
                 "ownerId": "197483032184225794"
             },
             "966644607620366376": {
@@ -634,7 +636,7 @@
                 "avatarURL": "https://cdn.discordapp.com/icons/966644607620366376/775d48709c183b424ace3449b7c36836.webp?size=40",
                 "animatedAvatarURL": "https://cdn.discordapp.com/icons/966644607620366376/775d48709c183b424ace3449b7c36836.webp?",
                 "joinedAt": "2022-12-19T18:13:31.628Z",
-                "owner": "Lucky_Strike#0001",
+                "owner": "Lucky_Strike#9959",
                 "ownerId": "766346554931675186"
             }
         },
@@ -685,7 +687,6 @@
             "1079866285518766142"
         ],
         "guildCacheSet": [
-            "811255666990907402",
             "523663022053392405",
             "822511642200899584",
             "1059983752555659305",
@@ -695,6 +696,7 @@
             "1079512826533658674",
             "951551304528961597",
             "763371154526044201",
+            "1017035752502206474",
             "753438334663000116",
             "1080575993531613184",
             "993207784592130128",
@@ -703,15 +705,15 @@
             "509419745834041355",
             "302094807046684672",
             "448194623580667916",
+            "1072150031060177017",
             "1047885994453639169",
-            "1049154765315133561",
             "613425648685547541",
             "1051478598206361660",
             "1080129414551060500",
             "879508141543424080",
+            "1082479904949534773",
             "1012299328443916308",
             "957268277850144788",
-            "1059776618723283046",
             "1078989860901228576",
             "997161877253660692",
             "968558357180997672",
@@ -724,6 +726,51 @@
             "966644607620366376"
         ],
         "removedFriendHistory": [],
-        "removedGuildHistory": []
+        "removedGuildHistory": [
+            {
+                "id": "1059776618723283046",
+                "name": "𝔹𝕣𝕠𝕥𝕙𝕖𝕣 𝔼𝕪𝕖",
+                "icon": "a51a8473c36036853e2114f846ccec2d",
+                "avatarURL": "https://cdn.discordapp.com/icons/1059776618723283046/a51a8473c36036853e2114f846ccec2d.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1059776618723283046/a51a8473c36036853e2114f846ccec2d.webp?",
+                "joinedAt": "2023-01-03T10:13:55.685Z",
+                "owner": "ℂ𝔼𝕆 ║ ℂ𝕚𝕡𝕙𝕖𝕣𝕊𝕟𝕚𝕗𝕗#0001",
+                "ownerId": "728224089680117790",
+                "timeRemoved": "2023-03-06T16:11:46.693Z"
+            },
+            {
+                "id": "960346027678908488",
+                "name": "✓ The Proception S2",
+                "icon": "bccbb650a1043aed3ba009ca1ed9ec88",
+                "avatarURL": "https://cdn.discordapp.com/icons/960346027678908488/bccbb650a1043aed3ba009ca1ed9ec88.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/960346027678908488/bccbb650a1043aed3ba009ca1ed9ec88.webp?",
+                "joinedAt": "2023-03-01T19:41:12.361Z",
+                "owner": "",
+                "ownerId": "582170230068084738",
+                "timeRemoved": "2023-03-06T16:21:37.570Z"
+            },
+            {
+                "id": "811255666990907402",
+                "name": "Aliuwucord",
+                "icon": "912861e37f0efa5c77729592ea8f7b8f",
+                "avatarURL": "https://cdn.discordapp.com/icons/811255666990907402/912861e37f0efa5c77729592ea8f7b8f.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/811255666990907402/912861e37f0efa5c77729592ea8f7b8f.webp?",
+                "joinedAt": "2023-02-27T00:50:19.219Z",
+                "owner": "",
+                "ownerId": "324622488644616195",
+                "timeRemoved": "2023-03-06T16:22:17.649Z"
+            },
+            {
+                "id": "1049154765315133561",
+                "name": "♤̷̆͑~̴̈́͗卩卄ㄖ几Ҝ~̵́̈♤̸̅͌",
+                "icon": "2ceb3c7fb6e94bbde11fc481e56743ee",
+                "avatarURL": "https://cdn.discordapp.com/icons/1049154765315133561/2ceb3c7fb6e94bbde11fc481e56743ee.webp?size=40",
+                "animatedAvatarURL": "https://cdn.discordapp.com/icons/1049154765315133561/2ceb3c7fb6e94bbde11fc481e56743ee.webp?",
+                "joinedAt": "2023-01-08T13:52:33.111Z",
+                "owner": "Phonk#9616",
+                "ownerId": "1028763423095390280",
+                "timeRemoved": "2023-03-07T16:17:29.005Z"
+            }
+        ]
     }
 }

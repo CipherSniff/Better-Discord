@@ -1,10 +1,10 @@
 {
 	"all": {
 		"changeLogs": {
-			"BDFDB": "3.1.4",
+			"BDFDB": "3.1.5",
 			"BetterNsfwTag": "1.3.2",
 			"DisplayServersAsChannels": "1.6.6",
-			"FriendNotifications": "1.8.8",
+			"FriendNotifications": "1.8.9",
 			"ReadAllNotificationsButton": "1.7.4",
 			"ServerCounter": "1.0.6",
 			"ServerDetails": "1.1.4",
@@ -23,8 +23,8 @@
 			"useChromium": false
 		},
 		"hashes": {
-			"0BDFDB.data.json": "144dac4d9b2f80ccf8625c11e94885a591353fc3",
-			"0BDFDB.raw.css": "a1c4a8b6f28c4765c6af2853ddf13a35922a2b9e"
+			"0BDFDB.data.json": "939d5545af24ad41aba0e9a579a0b84b2c1f1f1c",
+			"0BDFDB.raw.css": "f52cb738c62f9d43592643771b39e0783b93ff1b"
 		}
 	}
 }
